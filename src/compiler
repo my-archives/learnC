@@ -1,0 +1,15 @@
+#! /bin/bash
+# vim: ft=sh
+#
+# simple compile file
+# Usage:
+# ./ompiler hello.c
+# hello.c > hello.out
+
+source=$1
+target=${2:-$(echo $source | awk -F '.' '{print $1}')}
+stuff='out'
+
+if [ -e $source ]; then
+    gcc -Wall $source -o "$target.$stuff"
+fi
