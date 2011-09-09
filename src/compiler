@@ -4,7 +4,7 @@
 # simple compile file
 # Usage:
 # ./ompiler hello.c
-# hello.c > hello.out
+# hello.c > dist/hello.out
 
 source=$1
 target=${2:-$(echo $source | awk -F '.' '{print $1}')}
