@@ -10,5 +10,6 @@ Learning C
 
 ## Books
 - [C 语言程序设计]()
+- [Head First C]()
 
 ## Links
