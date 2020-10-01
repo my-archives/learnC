@@ -1,4 +1,4 @@
 Learning C Language
 ====================
-> Start learn c language now. <br />
+> Start learn C language now. <br />
 > cfddream[at]gmail.com
